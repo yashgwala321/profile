@@ -1,0 +1,465 @@
+* a{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color: black;
+}
+
+.nametext{
+    height: 30px;
+    width: 100px;
+    padding-top: 0px;
+}
+
+.nevcolor{
+    backdrop-filter: blur (20px);
+    background-color: #222725;
+}
+
+.texthome:hover{
+    color: #e4e6c3;
+    text-decoration: underline;
+    transition: all 0.1s ease-in;
+}
+.textabout:hover{
+    color: #e4e6c3;
+    text-decoration: underline;
+    transition: all 0.1s ease-in; 
+}
+.textskill:hover{
+    color: #e4e6c3;
+    text-decoration: underline;
+    transition: all 0.1s ease-in; 
+}
+.textEducation:hover{
+    color: #e4e6c3;
+    text-decoration: underline;
+    transition: all 0.1s ease-in; 
+}
+.textHobbies:hover{
+    color: #e4e6c3;
+    text-decoration: underline;
+    transition: all 0.1s ease-in; 
+}
+.textcontect:hover{
+    color:#e4e6c3;
+    text-decoration: underline;
+    transition: all 0.1s ease-in; 
+}
+
+.profilelogo{
+    height: 400px;
+    width: 400px;
+    margin-top: 190px;
+}
+@media (max-width: 414px) {
+    .profilelogo {
+        margin-top: 70px;
+        height: 300px;
+        width: 300px;
+    }
+}
+ 
+.textyash{
+    padding-top: 220px;
+    padding-left: 150px;
+}
+
+@media (max-width: 767px) {
+    .textyash {
+        padding-top: 105px;
+        padding-left: 22px;
+    }
+}
+
+.icone{
+    width: 150px;
+}
+
+.icone img{
+    height: 23px;
+    width: 35px;
+    margin-right: 10px;
+}
+
+.bthover:hover{
+    border-radius: 25px;
+    background-color: #718060;
+    transition: all 1s ease;  
+    box-shadow: 0 0 0px black; 
+}
+
+ 
+/* about heading*/
+
+.aboutheading{
+    text-decoration: underline;
+    font-size: 32px;
+    color: #899878;
+}
+.aboutheading:hover{
+    color: #222725;
+    text-decoration: underline;
+    transition: all 0.4s ease-in;
+}
+
+/*about image*/
+
+.aboutlogo {
+    height: 480px;
+    width: 350px;
+    border-radius: 15px;
+    transition: all 1s ease;  
+    box-shadow: 0 0 0px black;  
+}
+
+.aboutlogo:hover {  
+    box-shadow: 0px 30px 10px black;  
+    transition: all 1.5s ease;  
+}
+
+/* about title*/
+
+.abouttitel{
+    padding-top: 20px;
+    padding-right: 300px;
+    text-align: justify;
+}
+@media (max-width: 995px) {
+        .abouttitel{
+            padding-left: 20px;
+            padding-right: 20px;
+            text-align: justify;
+        }
+}  
+
+/*skill heading*/
+.skillheading{
+    text-decoration: underline;
+    color: #899878;
+    }
+
+.skillheading:hover{
+    color: #222725;
+    transition: all 0.4s ease-in;
+}
+
+/*skill icon*/
+
+.html{
+    height: 150px; 
+    width: 150px;
+    border: 1px rgb(207, 193, 193) solid;
+    border-radius: 10px;
+    align-self: center;
+}
+.html img{
+    height: 90px;
+    width: 75px;
+    padding-top: 15px;
+    margin-left: 25px;
+}
+.html:hover{
+    transition: all 2s ease;
+    box-shadow: 0px 20px 30px rgb(65, 48, 48);  
+    transform: rotatey(360deg);
+    transition: 1s;
+}
+
+
+.css{
+    height: 150px;
+    width: 150px;
+    border: 1px rgb(207, 193, 193) solid; 
+    border-radius: 10px;
+    margin-left: 200px;
+}
+.css img{
+    height: 90px;
+    width: 75px;
+    padding-top: 15px;
+    margin-left: 23px;
+}
+.css:hover{
+    transition: all 2s ease;
+    box-shadow: 0px 20px 30px rgb(65, 48, 48);  
+    transform: rotatey(360deg);
+    transition: 1s;
+}
+
+
+.boot{
+    height: 150px; 
+    width: 150px;
+    border: 1px rgb(207, 193, 193) solid;
+    border-radius: 10px;
+    margin-left: 200px;
+}
+.boot img{
+    height: 85px;
+    width: 75px;
+    padding-top: 5px;
+    margin-left: 23px;
+}
+.boot:hover{
+    transition: all 2s ease;
+    box-shadow: 0px 20px 30px rgb(65, 48, 48);  
+    transform: rotatey(360deg);
+    transition: 1s;
+}
+
+
+.c{
+    height: 150px; 
+    width: 150px;
+    border: 1px rgb(207, 193, 193) solid;
+    border-radius: 10px;
+}
+.c img{
+    height: 90px;
+    width: 75px;
+    padding-top: 10px;
+    margin-left: 25px;
+}
+.c:hover{
+    transition: all 2s ease;
+    box-shadow: 0px 20px 30px rgb(65, 48, 48);  
+    transform: rotatey(360deg);
+    transition: 1s;  
+}
+
+
+.linux{
+    height: 150px; 
+    width: 150px;
+    border: 1px rgb(207, 193, 193) solid;
+    border-radius: 10px;
+    margin-left: 200px;
+}
+.linux img{
+    height: 85px;
+    width: 75px;
+    padding-top: 10px;
+    margin-left: 25px;
+}
+.linux:hover{
+    transition: all 2s ease;
+    box-shadow: 0px 20px 30px rgb(65, 48, 48);  
+    transform: rotatey(360deg);
+    transition: 1s;
+}
+
+
+.canva{
+    height: 150px; 
+    width: 150px;
+    border: 1px rgb(207, 193, 193) solid;
+    border-radius: 10px;
+    margin-left: 200px;
+}
+.canva img{
+    height: 85px;
+    width: 75px;
+    padding-top: 10px;
+    margin-left: 25px;
+}
+.canva:hover{
+    transition: all 2s ease;
+    box-shadow: 0px 20px 30px rgb(65, 48, 48);  
+    transform: rotatey(360deg);
+    transition: 1s; 
+}
+
+
+.iconpd{
+    justify-content: center;
+}
+
+@media (max-width: 1100px) {
+    .boot {
+        margin-left: 0px;
+    }
+} 
+@media (max-width: 1100px) {
+    .linux {
+        margin-left: 0px;
+    }
+} 
+@media (max-width: 1100px) {
+    .css {
+        margin-left: 0px;
+    }
+} 
+@media (max-width: 1100px) {
+    .canva {
+        margin-left: 0px;
+    }
+} 
+@media (max-width: 1100px) {
+    .c {
+        margin-left: 0px;
+    }
+} 
+
+/* Education hading*/
+
+.eductionheading{
+    text-decoration: underline;
+    font-size: 32px;
+    color: #899878;
+}
+
+.eductionheading:hover{
+    color: #222725;
+    transition: all 0.4s ease;
+}
+
+/* education boxs*/
+
+.box1{
+    border-right: 2px #dad7cd solid;
+    width: 40em;
+    text-align: end;
+    border-radius: 10px;
+}
+.box1:hover{
+    transition: all 0.9s ease;
+    box-shadow: 0px 15px 10px rgb(65, 48, 48);
+}
+
+.box2{
+    border-left: 2px #dad7cd solid;
+    margin-left: 40em;
+    width: 40em;
+    border-radius: 10px;
+}
+.box2:hover{
+    transition: all 0.9s ease-in;
+    box-shadow: 0 15px 10px rgb(65, 48, 48); 
+}
+
+.box3{
+    border-right: 2px #dad7cd solid;
+    width: 40em;
+    text-align: end;
+    border-radius: 10px;
+}
+.box3:hover{
+    transition: all 0.9s ease-in;
+    box-shadow: 0 15px 15px rgb(65, 48, 48); 
+}
+
+@media (max-width: 1100px) {
+    .box2{
+        margin-left: 0px;
+    }
+} 
+
+@media (max-width: 510px) {
+    .box2 {
+        margin-left: 0px;
+        border: 1px black solid;
+    }
+} 
+
+@media (max-width: 510px) {
+    .box1 {
+        margin-left: 0px;
+        border: 1px black solid;
+    }
+} 
+
+@media (max-width: 510px) {
+    .box3 {
+        margin-left: 0px;
+        border: 1px black solid;
+    }
+} 
+
+/* hobbies*/
+
+.cricket{
+    height: 300px;
+    width: 300px;
+    border: 2px #dad7cd  solid;
+    border-radius: 20px;
+}
+.cricket:hover {
+    transition: all 0.9s ease-out;
+    box-shadow: 30px 20px 5px rgb(65, 48, 48);  
+}
+
+.cricket p{
+    text-align: justify;
+}
+
+.cricket img{
+    height: 80px;
+    width: 80px;
+    margin-top: 20px;
+}
+
+.travel{
+    height: 300px;
+    width: 300px;
+    border: 2px #dad7cd solid;
+    border-radius: 20px;
+    margin-left: 100px;
+}
+@media (max-width: 760px) {
+    .travel{
+        margin-left: 0px;
+    }
+} 
+
+.travel img{
+    height: 80px;
+    width: 80px;
+    margin-top: 20px;
+}
+.travel:hover{
+    transition: all 0.9s ease-in;
+    box-shadow: 30px 20px 5px rgb(65, 48, 48);  
+}
+.travel p{
+    text-align: justify;
+}
+
+.edit{
+    height: 300px;
+    width: 300px;
+    border: 2px #dad7cd solid;
+    border-radius: 20px;
+    margin-left: 100px;
+}
+@media (max-width: 760px) {
+    .edit{
+        margin-left: 0px;
+    }
+} 
+
+.edit img{
+    height: 80px;
+    width: 80px;
+    margin-top: 20px;
+}
+.edit:hover{
+    transition: all 0.9s ease-in;
+    box-shadow: 30px 20px 5px rgb(65, 48, 48);  
+}
+.edit p{
+    text-align: justify;
+}
+
+/* contact*/
+
+.boder{
+height: 300px;
+width: 800px;
+border-radius: 10px;
+border: 1px rgb(208, 202, 202) solid;
+}
+.boder:hover{
+transition: all 2s ease-in;
+box-shadow: 0 0 30px rgb(65, 48, 48);
+}
