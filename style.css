@@ -349,7 +349,7 @@
     box-shadow: 0 15px 15px rgb(65, 48, 48); 
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1400px) {
     .box2{
         margin-left: 0px;
     }
