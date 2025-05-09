@@ -146,6 +146,13 @@
 
 /*skill icon*/
 
+@media (max-width: 474px) {
+  .skill1 {
+    display: grid;
+    gap: 40px;
+  }
+}
+
 .html{
     height: 150px; 
     width: 150px;
@@ -353,7 +360,6 @@
     width: 40em;
     border-radius: 10px;
     height: 115px;
-    padding-top: 12px;
 }
 .box2:hover{
     transition: all 0.9s ease-in;
@@ -366,7 +372,6 @@
     text-align: end;
     border-radius: 10px;
     height: 115px;
-    padding-top: 12px;
 }
 .box3:hover{
     transition: all 0.9s ease-in;
